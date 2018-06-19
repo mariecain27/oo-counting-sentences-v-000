@@ -15,7 +15,8 @@ class String
   end
 
   def count_sentences
-    new_array = self.split(/[!.?]/)
+    complex_string = "This, well, is a sentence. This is too!! And so is this, I think? Woo..."
+    new_array = complex_string.split(/[!.?]/)
     new_array.count   
     binding.pry
   end
