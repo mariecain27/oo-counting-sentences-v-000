@@ -18,6 +18,6 @@ class String
     new_array = self.split(/[!.?]/)
     no_empty_array = new_array.reject { |i| i.empty? }
     no_empty_array.count
-    binding.pry
+ #   binding.pry
   end
 end
